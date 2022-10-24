@@ -14,9 +14,9 @@ This is a homepage of a website featuring headphones.
  A homepage for the sales of headphones with a calm feel.
 
 ### Screenshot
-![Screenshot 1.png](./screenshot.png)
+![Screenshot 1](./screenshot.png)
 ![Screenshot 2.png](./screenshot.jpg)
-![Screenshot 3](./screenshot.jpg)
+![Screenshot 3](./Screenshot%201.png)
 ![Screenshot 4](./screenshot.jpg)
 
 ## My process
