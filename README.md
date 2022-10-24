@@ -14,10 +14,10 @@ This is a homepage of a website featuring headphones.
  A homepage for the sales of headphones with a calm feel.
 
 ### Screenshot
-![Screenshot 1](./screenshot.png)
-![Screenshot 2.png](./screenshot.jpg)
-![Screenshot 3](./Screenshot%201.png)
-![Screenshot 4](./screenshot.jpg)
+![Screenshot 1](./Screenshot%201.png)
+![Screenshot 2](./Screenshot%202.png)
+![Screenshot 3](./Screenshot%203.png)
+![Screenshot 4](./Screenshot%204.png)
 
 ## My process
 
