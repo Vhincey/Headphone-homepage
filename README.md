@@ -22,7 +22,8 @@ This is a homepage of a website featuring headphones.
 ## My process
 
 ### Built with
-- 
+- HTML
+- CSS
 
 
 
