@@ -62,6 +62,8 @@ ul{
 
 .head{
     position: absolute;
+    width: 700px;
+    height: 600px;
     left: 10px;
     top: 117px;
     border-radius: 10px;
