@@ -1,57 +1,62 @@
 #four {
-    position: relative;
-    background-color: rgba(45, 44, 44, 1);
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: auto;
-    font-family: "Lato";
-    color: rgba(255, 255, 255, 1) ;
-
+  background-color: rgba(45, 44, 44, 1);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: auto;
+  font-family: "Lato";
+  color: rgba(255, 255, 255, 1);
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
-.footer{
-    max-width: 1170px;
-    margin: auto;
-    padding: 50px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-weight: 400;
-    line-height: 3rem;
-
-}
-
-.footer-sectioncontact{
-    font-size: 28px;
-    line-height: 1.5rem;
-}
-.footer-sectionlinks{
-    font-size: 36px; 
+.footer {
+  /* max-width: 1170px; */
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 400;
+  line-height: 3rem;
 }
 
-.footer-sectionlinks li a{
-    margin: 0 110px;
-    text-decoration: none;
-    color: white;
+.footer-sectioncontact {
+  font-size: 28px;
+  line-height: 1.5rem;
+}
+.footer-sectionlinks {
+  font-size: 36px;
 }
 
-.socials li{
-    color: rgba(255, 255, 255, 1);
-    margin: 0 110px;
+.footer-sectionlinks li a {
+  margin: 0 110px;
+  text-decoration: none;
+  color: white;
 }
 
-.socials a i{
-    font-size: 3rem;
-    color: white;
+.socials li {
+  color: rgba(255, 255, 255, 1);
+  margin: 0 110px;
 }
 
-.socials a:hover i{
-    color: rgba(105, 75, 48, 1);
+.socials a i {
+  font-size: 3rem;
+  color: white;
 }
 
-hr{
-    width: 65rem;
-    margin-left: 5rem;
+.socials a:hover i {
+  color: rgba(105, 75, 48, 1);
+}
+
+hr {
+  width: 65rem;
+  margin-left: 5rem;
+}
+ul{
+  list-style: none;
+  display: flex;
 }
