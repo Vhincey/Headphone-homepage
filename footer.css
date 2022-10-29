@@ -1,4 +1,5 @@
 #four {
+  margin-top: 10rem;
   background-color: rgba(45, 44, 44, 1);
   margin: 0;
   padding: 0;
@@ -6,11 +7,10 @@
   height: auto;
   font-family: "Lato";
   color: rgba(255, 255, 255, 1);
-   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  display: none;
+  /* display: none; */
 }
 .footer {
   /* max-width: 1170px; */
