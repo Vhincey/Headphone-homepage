@@ -1,3 +1,103 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+body{
+    background-color: #694B30;
+    width: 1440;
+}
+.logo{
+    position: absolute;
+    width: 128px;
+    height: 61px;
+    left: 0px;
+    top: 0px
+}
+
+.nav-bar{
+    position: absolute;
+    display: flex;
+    width: 645px;
+    height: 25px;
+    left: 646px;
+    top: 10px;
+}
+
+.nav-bar i{
+    position: absolute;
+    left: 510px;
+    top: 17px;
+}
+
+.nav-bar input{
+    width: 100px;
+    margin-top: 13px;
+    margin-left: 60px;
+    background: #E4883E;
+    opacity: 0.7;
+    border-radius: 25px;
+    height: 20px;
+    align-items: center;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar li{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 96.52%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+
+.head{
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: 10px;
+    top: 117px;
+    border-radius: 10px;
+}
+
+.sect1 h1{
+    position: absolute;
+    left: 880px;
+    top: 170px;
+    width: 280px;
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 0.145em;
+    font-family: 'Lato';
+    font-weight: 800;
+}
+
+.sect1 span{
+    background: linear-gradient(187.48deg, #FDCCBD 46.92%, rgba(255, 0, 184, 0.54) 91.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.sect1 i{
+    position: absolute;
+    left: 1250px;
+    font-size: 40px;
+    top: 110px;
+}
+
+
+=======
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
 
 :root {
@@ -191,3 +291,4 @@ span.sound{
   font-size: 40px;
   top: 110px;
 }
+>>>>>>> 30f12011eff500c7f7cefbf5fad9e01d65510632

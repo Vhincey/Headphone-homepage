@@ -1,4 +1,28 @@
 #four {
+<<<<<<< HEAD
+    position: relative;
+    background-color: rgba(45, 44, 44, 1);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    font-family: "Lato";
+    color: rgba(255, 255, 255, 1) ;
+
+}
+.footer{
+    max-width: 1170px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 400;
+    line-height: 3rem;
+
+=======
   margin-top: 10rem;
   background-color: rgba(45, 44, 44, 1);
   margin: 0;
@@ -23,10 +47,42 @@
   text-align: center;
   font-weight: 400;
   line-height: 3rem;
+>>>>>>> 30f12011eff500c7f7cefbf5fad9e01d65510632
 }
 
 .footer-sectioncontact {
   font-size: 28px;
+<<<<<<< HEAD
+  line-height: 2.4rem;
+}
+.footer-sectionlinks{
+    font-size: 36px; 
+}
+
+.footer-sectionlinks li a{
+    margin: 0 110px;
+    text-decoration: none;
+    color: white;
+}
+
+.socials li{
+    color: rgba(255, 255, 255, 1);
+    margin: 0 110px;
+}
+
+.socials a i{
+    font-size: 3rem;
+    color: white;
+}
+
+.socials a:hover i{
+    color: rgba(105, 75, 48, 1);
+}
+
+hr{
+    width: 65rem;
+    margin-left: 5rem;
+=======
   line-height: 1.5rem;
 }
 .footer-sectionlinks {
@@ -60,4 +116,5 @@ hr {
 ul{
   list-style: none;
   display: flex;
+>>>>>>> 30f12011eff500c7f7cefbf5fad9e01d65510632
 }
