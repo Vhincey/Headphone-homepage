@@ -6,6 +6,7 @@
   --primary: #e4883e;
   --black: #000;
   --sec:#9D7D62;
+  --linear: #C25782;
 }
 
 * {
@@ -77,6 +78,15 @@ i.bi.bi-search {
     margin-top: 3rem;
     margin-bottom: 10rem;
 }
+.cart{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -92,10 +102,17 @@ i.bi.bi-search {
     margin-top: 0.3rem;
 }
 .banner-text{
-    margin-top: 50%;
+    margin-top: 20%;
+    margin-left: 1rem;
 }
 span.experience {
-    font-size: 4rem;
+    font-size: 6rem;
+    color: var(--linear);
+}
+span.sound{
+    font-size: 5rem;
+    font-weight:lighter;
+    color: var(--white);
 }
 
 
