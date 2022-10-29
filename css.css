@@ -76,7 +76,6 @@ i.bi.bi-search {
 }
 .banner{
     margin-top: 3rem;
-    margin-bottom: 10rem;
 }
 .cart{
     display: flex;
@@ -113,6 +112,18 @@ span.sound{
     font-size: 5rem;
     font-weight:lighter;
     color: var(--white);
+}
+.images-container{
+    margin-top: 2rem;
+}
+.images{
+     display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.img{
+    height: 30rem;
+    width: 30rem;
 }
 
 
