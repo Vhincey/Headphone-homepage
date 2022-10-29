@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
+:root{
+  --bg: #694B30;
+  --white: #fff;
+  --primary:#E4883E
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #694B30;
     width: 1440;
 }
-.logo{
+/* .logo{
     position: absolute;
     width: 128px;
     height: 61px;
@@ -93,6 +104,6 @@ ul{
     left: 1250px;
     font-size: 40px;
     top: 110px;
-}
+} */
 
 
