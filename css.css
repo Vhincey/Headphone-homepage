@@ -76,7 +76,6 @@ i.bi.bi-search {
 }
 .banner{
     margin-top: 3rem;
-    margin-bottom: 10rem;
 }
 .cart{
     display: flex;
@@ -113,6 +112,36 @@ span.sound{
     font-size: 5rem;
     font-weight:lighter;
     color: var(--white);
+}
+.images-container{
+    margin-top: 3rem;
+    margin-bottom: 30rem;
+}
+.images{
+     display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15rem;
+}
+.img{
+    height: 30rem;
+    width: 30rem;
+}
+.middle-pic{
+    margin-left: 23rem;
+    margin-bottom: -25rem;
+    /* z-index: 100; */
+}
+.right-pic{
+    z-index: -100;
+}
+.left-pic{
+    z-index: -100;
+}
+.pic-unders{
+    position: absolute;
+    margin-left: 23rem;
+    margin-top: 15rem;
+    z-index: -100;
 }
 
 
