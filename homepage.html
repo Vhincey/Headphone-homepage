@@ -25,25 +25,28 @@
   </head>
   <body>
     <div class="container">
-    <section id="one" class="nav-section">
-      <nav class="nav-bar">
-        <img src="images/logo.png" alt="logo" class="logo" />
-        <ul>
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">Missions</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-        <div class="login-btn">Login</div>
-      </nav>
-      <!-- <ul>
+      <section id="one" class="nav-section">
+        <nav class="nav-bar">
+          <img src="images/logo.png" alt="logo" class="logo" />
+          <ul>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Missions</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <div class="search-field">
+            <i class="bi bi-search"></i>
+           <input aria-label="Search" title="Search" placeholder="Search">
+          </div>
+        </nav>
+        <!-- <ul>
                 <li>Home</li>
                 <li>Products</li>
                 <li>About Us</li>
                 <li>Contact Us</li>
             </ul>
             <i class="bi bi-search"></i>
-            <input type="text" class="search-bar" placeholder="Search"> -->
-      <!-- <div class="sect1">
+            <input type="text" class="search-bar" placeholder="Search" aria-label="Search"> -->
+        <!-- <div class="sect1">
         <img
           src="./images/Home.png"
           alt="headphone"
@@ -53,8 +56,8 @@
         <i class="bi bi-cart"></i>
         <h1><span>Experience</span> sound like never before</h1>
       </div> -->
-    </section>
-    <!-- <section id="two">
+      </section>
+      <!-- <section id="two">
       <div class="sect2">
         <img src="./images/2.jpg" alt="left-pic" class="left-pic" />
         <img src="./images/3.jpg" alt="middle-pic" class="middle-pic" />
@@ -63,10 +66,10 @@
       </div>
     </section> -->
 
-    <!-- <p>Top Products</p>
+      <!-- <p>Top Products</p>
     <a class="btn" href="productpage.html">Product Page</a> -->
 
-    <!-- <section id="three">
+      <!-- <section id="three">
       <img src="images/Product.jpg" alt="product1" />
       <img
         alt="image"
@@ -112,54 +115,54 @@
       /><box-icon type="solid" name="shopping-bag-alt"></box-icon>
     </section> -->
 
-    <section id="four">
-      <footer>
-        <div class="footer">
-          <div class="footer-sectionsocials">
-            <!-- <div class="contact">
+      <section id="four">
+        <footer>
+          <div class="footer">
+            <div class="footer-sectionsocials">
+              <!-- <div class="contact">
                     <span><i class="fas fa-envelope"></i></span>
                     <span><i class="fas fa-phone"></i></span>
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWdJREFUSEvVldFtAjEQRIdOSCVAJQmVBCpJOiGpJEklRA95Tr712gcfSGDpBJi9nZ3ZWXulO6/VnfPrIQDWkt4kbSRtJf1Wz7ekz5EKSwwOkt5LAhJ/le+AAsY6SiIuXT0AEpwk8dlLYGYUADhxDZsegJPvq6p7RboY/t8VsCk2A7AsBCMJCahwtIj5KQwoqguQBZ4LwMsCCEb4KCzcq8amDiIZVfu36U8vJmAubtazKBEVkNT7OIV+XANATB17eSkCoCNVWkdXlcVmitG/V0mTnBkA0tBgL8uEBWcNTBCiAg2DhmJJYmcZBGYkY5LrIYsKNACmGP0ch4rfXjUzHDdsctfPJZsr9zGBnB7GOD9pk9mEJmvke4B4bFu7relTNsnQvKahlqg+KpqiIoAdg471AjAeF7Ev6bnVGzQnJ6nPIt8Df9XdQNyQbQSwTbEf+vqw84Vj97APUMZsRn3pwsmm9aa95wf4B6WqYBlGFLZBAAAAAElFTkSuQmCC"/>
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARBJREFUSEvlldENwjAMRK+bwCTAJMAkwCTAJMAksAnoVTFKUydNPvpVSxUtSXz23dXtNHN0M+fXcgG2kk6SVoHiu6RzeD6E+34ppegh6SjpU9CGBFdnnTMAcv5m6ynANyS3ijwc9uQCkKckzvM76AD0d3TyEiqJu8lVHwPuLHmOIvi1IDkXFRkFHj22H2qg6B8pRVQYi9f6mhQBUopak7N/IHANRa0g69SBKUV0gVXN360Ao8ngjQpE3ktCj5YY0eNRxH81VkyBcRj0jCI37HjtcVNtDLxfsmm8hg5m2xKQS40d8DowgelgSods5R5Ai4OYM1NDscfwbIqLNsGqsV0R8uXMp6JOy/2i1dp3/o/+D9mWMhnNBgLxAAAAAElFTkSuQmCC"/> 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW5JREFUSEvFlc1NQ0EMhCdNcAUqAS7cKQAJKgEk+gDK4ARUws+BOxUEfcjzZO1zNhuhp+wlSmJ7xuNZ70oLn9XC9bU3gCNJV5JOJJ12uvyI/14l3Uny9yml6oDCDxFBAsm9AxlIEPsk6TYHtwAEv0fRsx3mQ95LxF9nUi0AzOnguGq3ALwMaX4kXVTkWgDY02rFHmCYHkp6k/Qo6VzSs6Sv+N1dTPktwDoSadOHonTWDhsi95K+JR2E/gAQjwJ/ZwSAJIrjEgZoh91Et1OxIEKnU91tAHaUi+cx+D/ksNM8wy5ALtYbuh1XxQ8DIAlSbHIVM/sXANozg0oig2MIHMUZkohgu8gO4tO3NA8Z7bOldwaAVc+mFM/7ZyvA7KJE6943LL/PKGpZsrNmF7VaFejeMhtZS3ZVlnh20RzkdTFbvxuQsoz5XpQPji9Q3vUj65qY7KhyVeT9g/+tfQ/AbwYum70de3syR4Y6FLN4B78fNGgZwcR3kQAAAABJRU5ErkJggg=="/>
                 </div> -->
-            <ul class="socials">
-              <li>
-                <a title="link" href="#"><i class="fa fa-envelope"></i></a>
-              </li>
-              <li>
-                <a title="link" href="#"><i class="fa fa-phone"></i></a>
-              </li>
-              <li>
-                <a title="link" href="#"><i class="fa fa-whatsapp"></i></a>
-              </li>
-              <li>
-                <a title="link" href="#"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li>
-                <a title="link" href="#"><i class="fa fa-instagram"></i></a>
-              </li>
-            </ul>
+              <ul class="socials">
+                <li>
+                  <a title="link" href="#"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li>
+                  <a title="link" href="#"><i class="fa fa-phone"></i></a>
+                </li>
+                <li>
+                  <a title="link" href="#"><i class="fa fa-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a title="link" href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a title="link" href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <br />
+            <div class="footer-sectioncontact">
+              <p>TheBigFive@gmail.com</p>
+              <p>+233 20 567 9023</p>
+              <p>08:00 - 22:00 - everyday</p>
+            </div>
+            <br />
+            <hr />
+            <div class="footer-sectionlinks">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
           </div>
-          <hr />
-          <br />
-          <div class="footer-sectioncontact">
-            <p>TheBigFive@gmail.com</p>
-            <p>+233 20 567 9023</p>
-            <p>08:00 - 22:00 - everyday</p>
-          </div>
-          <br />
-          <hr />
-          <div class="footer-sectionlinks">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-    </section>
+        </footer>
+      </section>
     </div>
   </body>
 </html>
