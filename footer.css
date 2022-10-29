@@ -56,3 +56,7 @@ hr {
   width: 65rem;
   margin-left: 5rem;
 }
+ul{
+  list-style: none;
+  display: flex;
+}
