@@ -125,7 +125,7 @@ sup {
     margin-top: 13%;
     margin-left: 3rem;
     letter-spacing: 0.4em;
-    
+
 }
 
 span.experience {
@@ -144,7 +144,7 @@ span.sound {
     margin-top: 3rem;
     margin-bottom: 30rem;
     margin-left: 5rem;
-    
+
 }
 
 .images {
@@ -222,4 +222,13 @@ span.sound {
     left: 1250px;
     font-size: 40px;
     top: 110px;
+}
+
+#three {
+    position: absolute;
+    width: 1446px;
+    height: 659px;
+    left: 28px;
+    top: 2280px;
+
 }
