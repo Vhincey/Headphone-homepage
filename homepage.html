@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- CSS only -->
     <link
@@ -61,7 +62,7 @@
         <!-- ======= IMAGES SECTION ====== -->
         <div class="images-container">
           <!-- <img src="./images/3.jpg" alt="middle-pic" class="middle-pic img" width = 528px height = 635px/> -->
-          <div class="images">
+          <div class="images" data-aos="zoom-out-up">
             <img src="./images/3.jpg" alt="middle-pic" class="middle-pic img" width = 540px height = 635px/>
             <img src="./images/2.jpg" alt="left-pic" class="left-pic img" width = 458px height = 672px />
             <img src="./images/4.jpg" alt="right-pic" class="right-pic img" width = 529px height = 659px/>
@@ -185,4 +186,8 @@
       </section>
     </div>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
