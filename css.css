@@ -178,14 +178,6 @@ span.sound {
 }
 
 
-
-
-
-
-
-
-
-
 .head {
     position: absolute;
     width: 700px;
@@ -283,6 +275,11 @@ span.sound {
     height: 659px;
     left: 28px;
     top: 2280px;
-
-
 }
+
+}.btn{
+    position: relative;
+}
+
+
+
