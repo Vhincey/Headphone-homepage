@@ -124,7 +124,7 @@ i.bi.bi-search {
     margin-top: 13%;
     margin-left: 3rem;
     letter-spacing: 0.4em;
-    
+
 }
 
 span.experience {
@@ -143,7 +143,7 @@ span.sound {
     margin-top: 3rem;
     margin-bottom: 30rem;
     margin-left: 5rem;
-    
+
 }
 
 .images {
@@ -223,6 +223,7 @@ span.sound {
     top: 110px;
 }
 
+
 .tp{
     font-size: 50px;
     color: white;
@@ -275,4 +276,13 @@ span.sound {
 .ls .bi{
     padding: 10px;
     color: black;
+
+#three {
+    position: absolute;
+    width: 1446px;
+    height: 659px;
+    left: 28px;
+    top: 2280px;
+
+
 }
