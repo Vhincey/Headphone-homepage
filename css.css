@@ -18,6 +18,7 @@
 body {
     background-color: #694b30;
     width: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -98,12 +99,10 @@ i.bi.bi-search {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    font-size: 40px;
 }
 
-sup {
-    vertical-align: super;
-    font-size: smaller;
-}
+
 
 .grid {
     display: grid;
@@ -224,11 +223,66 @@ span.sound {
     top: 110px;
 }
 
+
+.tp{
+    font-size: 50px;
+    color: white;
+}
+
+.pp{
+    text-align: right;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+
+.pp a{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.pp .bi{
+    padding-left: 8px;
+}
+
+.ls .p1{
+    width: 454px;
+    height: 454px;
+}
+
+.ls{
+    display: flex;
+}
+
+.font{
+    font-size: 30px;
+    width: 600px;
+    padding: 100px;
+    color: white;
+    font-weight: 600;
+}
+
+.mon{
+    display: flex;
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.ls .dd{
+    margin-left: 220px;
+}
+
+.ls .bi{
+    padding: 10px;
+    color: black;
+
 #three {
     position: absolute;
     width: 1446px;
     height: 659px;
     left: 28px;
     top: 2280px;
+
 
 }
