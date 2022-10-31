@@ -129,7 +129,10 @@ i.bi.bi-search {
 
 span.experience {
     font-size: 82px;
-    color: var(--linear);
+    background: linear-gradient(187.48deg, #FDCCBD 46.92%, rgba(255, 0, 184, 0.54) 91.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 span.sound {
