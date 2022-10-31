@@ -273,6 +273,7 @@ span.sound {
 }
 
 
+
 .font {
     font-size: 30px;
     width: 600px;
@@ -317,15 +318,31 @@ span.sound {
 
 .bi-cart{
     margin-left: 500px;
+    margin-top: -50px;
     
 }
 
 .dd{
     align-items: center;
     margin-left: 28rem;
+    margin-top: 50px;
+}
+.dd1{
+    position: absolute;
+    right: 700px;
+    color: #000;
+    font-size: 3rem;
+    margin-top: 60px;
 }
 
-.btn {
-    position: relative;
+
+.mid{
+    position: absolute;
+    right: 225px;
+    margin-right: 400px;
+    color: #000;
+    font-size: 3rem;
+    margin-top: 57px;
 }
+
 
